@@ -1,4 +1,5 @@
 package entities;
 
-public class Order {
+public enum OrderStatus {
+    PENDING, DELIVERES;
 }
